@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Music Player</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="https://kit.fontawesome.com/c809b5a29f.js" crossorigin="anonymous"></script>
+		<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+</head>
+<body>
+	<div id="body-div">
+		<!-- logo -->
+	  <div id="header">
+	     <div id="logo">
+		    <h1>
+			  <span><i class="fab fa-spotify "></i></span>
+		      <span ><p>Ninja Studio</p></span>
+		    </h1>
+	     </div>
+
+	     <div id="favourites">
+	     	<ul>
+	     		<li>
+	     	      <h4>Favourites</h4>
+	     	        <ul>
+	     	        	<li>
+	     	        		<a href="#Latest-Hindi">
+	     	        			<h3>Latest Hindi</h3>
+	     	        	    </a>
+	     	           </li>
+	     	        	<li>
+	     	        		<a href="#Latest-English">
+	     	        			<h3>Latest-English</h3>
+	     	        	    </a>
+	     	           </li>
+	     	        </ul>
+	     	    </li>
+	     	</ul>
+	     </div>
+
+	      <div class="search-box">
+
+		     <input class="search-txt" type="text" name="search" placeholder="Search artists, songs...">
+			   <i class="fas fa-search"></i>		 
+	       </div>
+	       <div id="bell">
+	       	   <i class="fas fa-bell"></i>
+	       	   <i id ="user" class="fas fa-user-circle"></i>
+	       	   <p><b>Sign in</b></p>
+	       	</div>
+
+	    </div>
+
+
+
+
+	    <main>
+		  <section id="slider">
+
+              <input type="radio" name="slider" id="s1" checked>
+              <input type="radio" name="slider" id="s2">
+              <input type="radio" name="slider" id="s3">
+              <input type="radio" name="slider" id="s4">
+              <input type="radio" name="slider" id="s5">
+
+             <label for="s1" id="slide1">
+                  <img src="image/rahat.jpg" height="100%" width="100%">
+             </label>
+
+             <label for="s2" id="slide2">
+                 <img src="image/shreya.jpg" height="100%" width="100%">
+             </label>
+
+             <label for="s3" id="slide3">
+                 <img src="image/arijit.jpg" height="100%" width="100%">
+              </label>
+
+             <label for="s4" id="slide4">
+                <img src="image/atif.jpg" height="100%" width="100%">
+              </label>
+
+              <label for="s5" id="slide5">
+                 <img src="image/sonu.jpg" height="100%" width="100%">
+               </label>
+
+           </section>
+           <section id="LR">
+           	  <h1>
+           	  	Latest Release
+           	  </h1>
+           	  <div id="content">
+           	  	<div id="song">
+           	  		<img src="image/mission.jpg">
+           	  		<div class="song-info">
+     		             <p><b>Mission Mangal</b><br>
+     		              Nov 14,2019</p>
+     	            </div>
+     	            <div class="more-info">
+     		            <i class="fa fa-ellipsis-h"></i>
+     		             <p>05:43</p>
+     	            </div>
+           	  	</div>
+           	  	<div id="song">
+           	  		<img src="image/tanaji.jpg">
+           	  		<div class="song-info">
+     		             <p><b>Tana ji</b><br>
+     		              Nov 14,2019</p>
+     	            </div>
+     	            <div class="more-info">
+     		            <i class="fa fa-ellipsis-h"></i>
+     		             <p>05:43</p>
+     	            </div>
+           	  	</div>
+           	  	<div id="song">
+           	  		<img src="image/baagi.jpg">
+           	  		<div class="song-info">
+     		             <p><b>Baagi 3</b><br>
+     		              Dec 21,2019</p>
+     	            </div>
+     	            <div class="more-info">
+     		            <i class="fa fa-ellipsis-h"></i>
+     		             <p>05:43</p>
+     	            </div>
+           	  	</div>
+           	  	<div id="song">
+           	  		<img src="image/body.jpg">
+           	  		<div class="song-info">
+     		             <p><b>The Body</b><br>
+     		              Aug 11,2020</p>
+     	            </div>
+     	            <div class="more-info">
+     		            <i class="fa fa-ellipsis-h"></i>
+     		             <p>05:43</p>
+     	            </div>
+           	  	</div>
+           	  	
+           	  </div>
+           	</section>
+
+           	<section id="popular-artist">
+           		<h1> Popular Artist</h1>
+           		<div id="artist-list-container">
+           			 <div id="img-container"> 
+           				<img id="artist-image" src="image/neha1.jpg">
+           			 </div>
+           			 <div id="img-container">
+           				 <img id="artist-image" src="image/sonu1.jpg">
+           			 </div>
+           			 <div id="img-container">
+           				<img id="artist-image" src="image/shreya1.jpg">
+           			 </div>
+           			 <div id="img-container">
+           				<img id ="artist-image" src="image/atif1.jpg">
+           			 </div>
+           			 <div id="img-container">
+           				<img id ="artist-image" src="image/arijit1.jpg">
+           			 </div>
+           		</div>
+           	</section>
+           	<section id="station">
+           		<div id="station-container">
+           			 <div id="img-container">
+           				<img id="artist-image" src="image/ms.jpg">
+           			 </div>
+           			 <div id="img-container">
+           				<img id="artist-image" src="image/retro.jpg">
+           			 </div>
+           			 <div id="img-container">
+           				<img id="artist-image" src="image/love.jpg">
+           			 </div>
+           			 <div id="img-container">
+           				<img id ="artist-image" src="image/rock.jpg">
+           			 </div>
+           			  <div id="img-container">
+           				<img id ="artist-image" src="image/pop.png">
+           			 </div>
+           		</div>
+           	</section>
+
+           	<section id="song-type">
+           		<div id="song-type-container">
+           			<img id="song-type-image" src="image/party.jpg">
+           			<img id="song-type-image" src="image/elec.jpg">
+           			<img id="song-type-image" src="image/road.jpg">
+           		</div>
+           	</section>
+
+           	<section id="Latest-Hindi">
+           		<h1>Latest Hindi</h1>
+           		<div id="latest-hindi-container">
+           	  	  <div id="latest-hindi-info">
+           			 <img src="image/bechara.jpg">
+		             <p><b>Dil Bechara</b><br>
+			            July 24,2020
+		             </p>
+           		  </div>
+           		  <div id="latest-hindi-info">
+		           <img src="image/baagi3.jpg">
+		              <p><b>Baagi 3</b><br>
+			            Feb 2,2020
+		               </p>
+	              </div>
+	              <div id="latest-hindi-info">
+		           <img src="image/angrezi.jpg">
+		             <p><b>Angrezi Medium</b><br>
+			          Aug 12,2020
+		              </p>
+	              </div>
+
+
+	             <div id="latest-hindi-info">
+		            <img src="image/shikara.jpg">
+		            <p><b>Shikara</b><br>
+			        Mar 4,2020
+		           </p>
+	             </div>
+
+                 <div id="latest-hindi-info">
+		            <img src="image/war.jpg">
+		            <p><b>War</b><br>
+			         Apr 4,2019
+		             </p>
+	             </div>
+	         </div>
+           	</section>
+
+           	 <section id="Latest-English"> 
+
+           		<h1>Latest English</h1>
+
+           	  <div id="latest-english-container">
+           	  	  <div id="latest-english-info">
+           			 <img src="image/blood.jpg">
+		             <p><b>BloodShot</b><br>
+			            July 24,2020
+		             </p>
+           		  </div>
+
+           		  <div id="latest-english-info">
+		             <img src="image/onward.jpg">
+		              <p><b>Onward</b><br>
+			            Jan 24,2020
+		               </p>
+	              </div>
+
+	              <div id="latest-english-info">
+		             <img src="image/fantasy.jpg">
+		             <p><b>Fantasy</b><br>
+			          Sep 14,2020
+		              </p>
+	              </div>
+
+
+	             <div id="latest-english-info">
+		            <img src="image/star.jpg">
+		            <p><b>Star Wars</b><br>
+			        Feb 4,2020
+		            </p>
+	             </div>
+
+                 <div id="latest-english-info">
+		            <img src="image/ext.jpg">
+		            <p><b>Extraction</b><br>
+			         June 30,2020
+		             </p>
+	             </div>
+	          </div>
+           	</section>   
+ <section id="controls">
+    <div id="rangeSlider">
+      <img src="image/aashiqui2.jpg">
+       <div class="song-info1">
+        <p>Tum Hi Ho<br>
+        Aashiqui 2</p>
+      </div>
+        <div class="more-info1">
+        <i class="fa fa-heart"></i>
+        <i class="fa fa-ban"></i>
+      </div>
+
+      <div id="control-icons">
+        <div>
+        <i class="fa fa-random"></i>
+        <i class="fa fa-caret-left"></i>
+        <i class="fa fa-pause-circle"></i>
+        <i class="fa fa-caret-right"></i>
+        <i class="fa fa-repeat"></i>
+          </div>
+
+          <div id="slider1">
+            2:12<input type="range" name="" min="0" max="100">4:54
+            </div>
+      </div>
+      
+        <div id="vol">
+          <i class="fa fa-volume-down"></i>
+          <input type="range" name="" min="0" max="100" id="vol-slider">
+          <i class="fa fa-expand" id="exp"></i>
+        </div>
+
+  </div>
+</section>      	
+</main>
+
+
+            <aside>
+  	           <h1> Queue </h1>
+  	           <ul id="My_playlist">
+  	  	         <li>
+  	  		       <div id="song-info">
+  	  		         <img src="image/dil.jpg">
+  	  		         <p>Dil Mien Ho <br>
+  	  			         Why Cheat India
+  	  		          </p>
+  	  		        </div>
+  	  		        <div class="icon-h">
+    			       <i class="fa fa-heart"></i>
+    		        </div>
+
+  	  	         </li>
+  	  	         <li>
+  	  	            <div id="song-info">
+  	  		            <img src="image/coca.jpg">
+  	  		              <p>Coca Cola <br>
+  	  			           Luka Chupi
+  	  		               </p>
+  	  	            </div>
+  	  		       <div class="icon-h">
+    			      <i class="fa fa-heart"></i>
+    		       </div>
+ 
+  	  	         </li>
+  	  	         <li>
+  	  		        <div id="song-info">
+  	  		           <img src="image/dhadak.jpg">
+  	  		             <p>Dhadak-Title <br>
+  	  			             Dhadak
+  	  		             </p>
+  	  		        </div>
+  	  		       <div class="icon-h">
+    			       <i class="fa fa-heart"></i>
+    		       </div>
+  	  	         </li>
+  	  	        <li>
+  	  		      <div id="song-info">
+  	  		        <img src="image/parmanu.jpg">
+  	  		        <p>Jitni Dafa.. <br>
+  	  			    Parmanu
+  	  		        </p>
+  	  		      </div>
+  	  		      <div class="icon-h">
+    			    <i class="fa fa-heart"></i>
+    		     </div>
+  	  	       </li>
+  	  	      <li>
+  	  		    <div id="song-info">
+  	  		      <img src="image/meri.jpg">
+  	  		       <p>Meri Aashiqui <br>
+  	  			       Aashiqui 2
+  	  		       </p>
+  	  		    </div>
+  	  		   <div class="icon-h">
+    			  <i class="fa fa-heart"></i>
+    		   </div>
+  	  	     </li>
+  	  	     <li>
+  	  		    <div id="song-info">
+  	  		      <img src="image/pal.jpg">
+  	  		      <p>Pal <br>
+  	  			  Jalebi
+  	  		      </p>
+  	  		   </div>
+  	  		   <div class="icon-h">
+    			 <i class="fa fa-heart"></i>
+    		   </div>
+  	  	     </li>
+  	  	    <li>
+  	  		    <div id="song-info">
+  	  		       <img src="image/1920.jpg">
+  	  		       <p>Aaj Ro Len De <br>
+  	  			     1920 London
+  	  		       </p>
+  	  		   </div>
+  	  		   <div class="icon-h">
+    			 <i class="fa fa-heart"></i>
+    		   </div>
+  	  	   </li>
+  	       <li>
+  	  		    <div id="song-info">
+  	  		       <img src="image/psy.jpg">
+  	  		       <p>Psycho Saiyaan <br>
+  	  			     Saaho
+  	  		       </p>
+  	  		   </div>
+  	  		   <div class="icon-h">
+    			 <i class="fa fa-heart"></i>
+    		   </div>
+  	  	   </li>
+  	  	   <li>
+  	  		    <div id="song-info">
+  	  		       <img src="image/mr.jpg">
+  	  		       <p>Tu Jo Hain <br>
+  	  			     Mr. X
+  	  		       </p>
+  	  		   </div>
+  	  		   <div class="icon-h">
+    			 <i class="fa fa-heart"></i>
+    		   </div>
+  	  	   </li>
+  	  	   <li>
+  	  		    <div id="song-info">
+  	  		       <img src="image/pk.jpg">
+  	  		       <p>Char Kadam <br>PK 
+  	  		       </p>
+  	  		   </div>
+  	  		   <div class="icon-h">
+    			 <i class="fa fa-heart"></i>
+    		   </div>
+  	  	   </li>
+  	   	   <li>
+  	  		    <div id="song-info">
+  	  		       <img src="image/ek.jpg">
+  	  		       <p>Lapata <br>Ek tha Tiger 
+  	  		       </p>
+  	  		   </div>
+  	  		   <div class="icon-h">
+    			 <i class="fa fa-heart"></i>
+    		   </div>
+  	  	   </li>
+  	  	    <li>
+  	  		    <div id="song-info">
+  	  		       <img src="image/ladies.jpg">
+  	  		       <p>Aadat Se <br> Shaan
+  	  		       </p>
+  	  		   </div>
+  	  		   <div class="icon-h">
+    			 <i class="fa fa-heart"></i>
+    		   </div>
+  	  	   </li>
+  	    </ul>
+     </aside>
+  </div>
+ </body>
+</html>
